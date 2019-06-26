@@ -14,6 +14,54 @@ class MyComponent extends Component {
     return (
       <div>
         <div className="divide">
+          <div className="childAlt">
+            <div className="infoCrypto">
+              D A N I E L : D E C O D E D
+              <br />
+              <br />
+              <img
+                src="augmentedClip.png"
+                height="250px"
+                width="auto"
+                position="relative"
+              />
+            </div>
+            <div className="rightInnerChild">
+              <img
+                src="croppedMe.jpg"
+                height="250px"
+                width="auto"
+                position="relative"
+              />
+            </div>
+            <div className="leftInnerChild">
+              <h2>~About~</h2>
+              <hr />
+              <p>
+                <a href="https://github.com/explorAR-group/ExplorAR">
+                  https://github.com/explorAR-group/ExplorAR
+                </a>
+                <br />
+                <br />
+                Salutations, I'm Daniel. I'm a software engineer all about
+                exploring new cutting edge technologies such as augmented
+                reality, machine learning and cryptocurrencies.
+                <br />
+                You can find all of my work here.
+              </p>
+              <p>
+                Built using: <br />
+                <hr />
+                <br />
+                <div className="stack">
+                  React Native
+                  <br /> ARKit
+                  <br /> Express
+                  <br /> PostgreSQL
+                </div>
+              </p>
+            </div>
+          </div>
           <div className="child">
             <div className="infoCrypto">
               Cryptocurrency

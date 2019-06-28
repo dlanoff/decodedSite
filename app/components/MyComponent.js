@@ -19,12 +19,12 @@ class MyComponent extends Component {
               D A N I E L : D E C O D E D
               <br />
               <br />
-              <img
+              {/* <img
                 src="augmentedClip.png"
                 height="250px"
                 width="auto"
                 position="relative"
-              />
+              /> */}
             </div>
             <div className="rightInnerChild">
               <img
@@ -38,27 +38,28 @@ class MyComponent extends Component {
               <h2>~About~</h2>
               <hr />
               <p>
-                <a href="https://github.com/explorAR-group/ExplorAR">
-                  https://github.com/explorAR-group/ExplorAR
-                </a>
-                <br />
+                <a href="https://github.com/dlanoff" />
                 <br />
                 Salutations, I'm Daniel. I'm a software engineer all about
                 exploring new cutting edge technologies such as augmented
                 reality, machine learning and cryptocurrencies.
                 <br />
-                You can find all of my work here.
+                <br />
+                You can find all of my work here. <br />
+                <br />
+                <div className="stackAlt">
+                  <u>Contact:</u> <br />
+                  <br />
+                  Location NY,NY 11211
+                  <br />
+                  Phone: 917-232-2977 <br />
+                  EMAIL: daniellanoff@gmail.com <br />
+                </div>
+                <br />I am currently available for fulltime back end and full
+                stack positions.
               </p>
               <p>
-                Built using: <br />
                 <hr />
-                <br />
-                <div className="stack">
-                  React Native
-                  <br /> ARKit
-                  <br /> Express
-                  <br /> PostgreSQL
-                </div>
               </p>
             </div>
           </div>

@@ -12,7 +12,7 @@ body {
   width: 300px;
   height: 20px;
   top: 50%;
-  left: 52%;
+  left: 50%;
   margin-top: -10px; /* Negative half of height. */
   margin-left: -150px;
   border-radius: 25px;
@@ -159,7 +159,8 @@ h2 {
   text-transform: uppercase;
 }
 iframe {
-  right: 330px;
+  /* right: 330px; */
+  border-right: 500px;
   border: 1px solid rgba(255, 4, 4, 0.9);
 }
 
@@ -195,14 +196,22 @@ h2 {
 }
 
 .leftInnerChild {
-  padding: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 75px;
+
+  padding-bottom: 75px;
   /* width: auto; */
   /* display: flex; */
   flex: 45%; /* default 0 */
   /* border: 1px solid rgba(0, 0, 0, 0.9); */
 }
 .rightInnerChild {
-  padding: 100px;
+  /* margin-left: 500px; */
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 75px;
+  padding-bottom: 75px;
   flex: 40%;
   /* border: 1px solid rgba(255, 4, 4, 0.9); */
 }

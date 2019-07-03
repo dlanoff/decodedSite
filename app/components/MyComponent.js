@@ -25,6 +25,7 @@ class MyComponent extends Component {
                 width="auto"
                 position="relative"
               /> */}
+              <br />
             </div>
             <div className="rightInnerChild">
               <img
@@ -184,15 +185,18 @@ class MyComponent extends Component {
               />
             </div>
             <div className="leftInnerChild">
-              <h2>Tensor, Paper, Scissors </h2>
-              <hr />
+              <h2>
+                Tensor, Paper, <br />
+                Scissors{" "}
+              </h2>
+              <hr align="left" width="70%" />
               <a href="https://github.com/thetensorgroup/tensorpaperscissors">
                 https://github.com/thetensorgroup/tensorpaperscissors
               </a>
               <br />
               <br />• Play Rock Paper Scissors against an intelligent
-              machine-learning computer with this learning/teaching tool built
-              with Google’s tensorflow.js library.
+              machine-learning computer with this <br />
+              learning/teaching tool built with Google’s tensorflow.js library.
               <br />
               <br />
               •Detects patterns and adapts to gameplay
@@ -200,7 +204,7 @@ class MyComponent extends Component {
               <br />
               Built using
               <br />
-              <hr />
+              <hr align="left" width="60%" />
               <p>
                 <div className="stack">
                   Tensorflow.js

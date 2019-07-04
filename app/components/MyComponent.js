@@ -44,10 +44,13 @@ class MyComponent extends Component {
                 Salutations, I'm Daniel. I'm a software engineer all about
                 exploring new cutting edge technologies such as augmented
                 reality, machine learning and cryptocurrencies. <br />
+                <br />
+                I'm well versed in the following programming
+                languages/technologies: <br />
                 <br />• Proficient: JavaScript, Node.js, Express, Sequelize,
                 React, Redux, HTML, CSS, Git/hub, PostgreSQL <br />
-                <br /> •Knowledgeable: Python, Mocha, Chai, Jasmine, SQL, Redis,
-                Socket.io, OAuth, Visual Basic, SPSS, Matlab, React-Native
+                <br /> •Knowledgeable: Python, React-Native, Mocha, Chai,
+                Jasmine, SQL, Redis, Socket.io, OAuth, Visual Basic, Matlab
                 <br />
                 <br />
                 <div className="stackAlt">
@@ -97,7 +100,7 @@ class MyComponent extends Component {
                 graphical format
               </p>
               <p>
-                Built using <br />
+                Built using: <br />
                 <hr align="left" width="70%" />
                 <br />
                 <div className="stack">

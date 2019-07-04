@@ -35,7 +35,7 @@ class MyComponent extends Component {
                 position="relative"
               />
             </div>
-            <div className="leftInnerChild">
+            <div className="leftInnerChild" id="rightAdj">
               <h2>~About~</h2>
               <hr />
               <p>
@@ -43,10 +43,12 @@ class MyComponent extends Component {
                 <br />
                 Salutations, I'm Daniel. I'm a software engineer all about
                 exploring new cutting edge technologies such as augmented
-                reality, machine learning and cryptocurrencies.
+                reality, machine learning and cryptocurrencies. <br />
+                <br />• Proficient: JavaScript, Node.js, Express, Sequelize,
+                React, Redux, HTML, CSS, Git/hub, PostgreSQL <br />
+                <br /> •Knowledgeable: Python, Mocha, Chai, Jasmine, SQL, Redis,
+                Socket.io, OAuth, Visual Basic, SPSS, Matlab, React-Native
                 <br />
-                <br />
-                You can find all of my work here. <br />
                 <br />
                 <div className="stackAlt">
                   <u>Contact:</u> <br />
@@ -79,7 +81,7 @@ class MyComponent extends Component {
             </div>
             <div className="leftInnerChild">
               <h2>CryptoMatrix</h2>
-              <hr align="left" width="80%" />
+              <hr align="left" width="60%" />
               <p>
                 <a href="https://cryptomatrix.herokuapp.com/">
                   https://cryptomatrix.herokuapp.com/
@@ -96,7 +98,7 @@ class MyComponent extends Component {
               </p>
               <p>
                 Built using <br />
-                <hr />
+                <hr align="left" width="70%" />
                 <br />
                 <div className="stack">
                   React
@@ -107,7 +109,7 @@ class MyComponent extends Component {
               </p>
             </div>
             <div className="rightInnerChild">
-              <img src="crypto.png" width="500" height="auto" />
+              <img id="cryptoFlag" src="crypto.png" width="500" height="auto" />
             </div>
           </div>
 
@@ -126,7 +128,7 @@ class MyComponent extends Component {
                 position="relative"
               />
             </div>
-            <div className="rightInnerChild">
+            <div className="leftInnerChild">
               <iframe
                 width="560"
                 height="315"
@@ -136,7 +138,7 @@ class MyComponent extends Component {
                 allowfullscreen
               />
             </div>
-            <div className="leftInnerChild">
+            <div id="test1" className="rightInnerChild">
               <h2>ExplorAR</h2>
               <hr />
               <p>
@@ -215,7 +217,7 @@ class MyComponent extends Component {
               </p>
             </div>
             <div className="rightInnerChild">
-              <img src="rock.png" width="500" height="auto" />
+              <img id="cryptoFlag" src="rock.png" width="500" height="auto" />
             </div>
           </div>
         </div>

@@ -1,6 +1,10 @@
-
 * {
   z-index: 10;
+}
+
+@viewport {
+  width: device-width;
+  zoom: 1;
 }
 body {
   margin: 0;
@@ -9,10 +13,9 @@ body {
   height: 100;
 }
 
-main{
+main {
   width: 100%;
   height: 100%;
-  
 }
 
 .infoCrypto {
@@ -42,6 +45,7 @@ main{
 
   /* border: 2px solid #686868; */
 }
+
 nav {
   display: flex;
   align-items: center;
@@ -52,6 +56,7 @@ nav {
   z-index: 1;
   position: relative;
 }
+
 .upperNav {
   display: flex;
   justify-content: space-between;

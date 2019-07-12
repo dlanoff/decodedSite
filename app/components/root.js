@@ -1,5 +1,5 @@
 import React from "react";
-import MyComponent from "./MyComponent";
+import Main from "./Main";
 
 const Root = () => {
   return (
@@ -29,7 +29,7 @@ const Root = () => {
       </div>
 
       <main>
-        <MyComponent />
+        <Main />
       </main>
     </div>
   );

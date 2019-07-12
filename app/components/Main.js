@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 
-class MyComponent extends Component {
+class Main extends Component {
   constructor() {
     super();
     state: {
@@ -240,4 +240,4 @@ const mapDispatchToProps = dispatch => {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(MyComponent);
+)(Main);

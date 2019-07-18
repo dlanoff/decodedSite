@@ -8,13 +8,22 @@ class Main extends Component {
     }
   }
 
-  componentDidMount() {}
+  componentDidMount() { }
 
   render() {
     return (
       <div>
         <div className="divide">
           <div className="childAlt">
+
+            <div className="rightInnerChild">
+              <img
+                src="croppedMe.jpg"
+                height="250px"
+                width="auto"
+                position="relative"
+              />
+            </div>
             <div className="infoCrypto">
               D A N I E L : D E C O D E D
               <br />
@@ -26,14 +35,6 @@ class Main extends Component {
                 position="relative"
               /> */}
               <br />
-            </div>
-            <div className="rightInnerChild">
-              <img
-                src="croppedMe.jpg"
-                height="250px"
-                width="auto"
-                position="relative"
-              />
             </div>
             <div className="leftInnerChild" id="rightAdj">
               <h2>~About~</h2>
@@ -70,18 +71,7 @@ class Main extends Component {
             </div>
           </div>
           <div className="child">
-            <div className="infoCrypto">
-              Cryptocurrency
-              <br />
-              <br />
-              <img
-                src="cryptoClip.png"
-                height="100px"
-                width="auto"
-                id="crypto"
-                position="absolute"
-              />
-            </div>
+
             <div className="leftInnerChild">
               <h2>CryptoMatrix</h2>
               <hr align="left" width="60%" />
@@ -111,6 +101,17 @@ class Main extends Component {
                 </div>
               </p>
             </div>
+            <div className="infoCrypto">
+              Cryptocurrency
+              <br />
+              <br />
+              <img
+                src="cryptoClip.png"
+                height="100px"
+                width="auto"
+                id="crypto"
+              />
+            </div>
             <div className="rightInnerChild">
               <img id="cryptoFlag" src="crypto.png" width="500" height="auto" />
             </div>
@@ -120,6 +121,17 @@ class Main extends Component {
           {/* AUGMENTED REALITY */}
 
           <div className="childAlt">
+
+            <div className="leftInnerChild">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/iLDaRyiGrh8?start=94"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              />
+            </div>
             <div className="infoCrypto">
               Augmented Reality
               <br />
@@ -129,16 +141,6 @@ class Main extends Component {
                 height="250px"
                 width="auto"
                 position="relative"
-              />
-            </div>
-            <div className="leftInnerChild">
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/iLDaRyiGrh8?start=94"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
               />
             </div>
             <div id="test1" className="rightInnerChild">
@@ -178,17 +180,7 @@ class Main extends Component {
 
           <div className="child">
             \
-            <div className="infoCrypto">
-              Machine Learning
-              <br />
-              <br />
-              <img
-                src="machineLearnClip.png"
-                height="200px"
-                width="auto"
-                position="absolute"
-              />
-            </div>
+
             <div className="leftInnerChild">
               <h2>
                 Tensor, Paper, <br />
@@ -218,6 +210,16 @@ class Main extends Component {
                   <br /> D3.js
                 </div>
               </p>
+            </div><div className="infoCrypto">
+              Machine Learning
+              <br />
+              <br />
+              <img
+                src="machineLearnClip.png"
+                height="200px"
+                width="auto"
+                position="absolute"
+              />
             </div>
             <div className="rightInnerChild">
               <img id="cryptoFlag" src="rock.png" width="500" height="auto" />
